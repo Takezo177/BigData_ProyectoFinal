@@ -1,0 +1,9 @@
+{
+	"name": "LMIRANDA",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ed5e5495-41e5-4684-8853-3f02190b20a6",
+		"tenantId": "f50e5513-c15e-46f3-9f81-3691c4292881"
+	}
+}
