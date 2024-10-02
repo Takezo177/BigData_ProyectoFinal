@@ -1,0 +1,28 @@
+{
+	"name": "Ingesta_capa_plata_capa_oro",
+	"properties": {
+		"activities": [
+			{
+				"name": "Ingesta_capa_plata_capa_oro",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/leonardomiranda.g17@hotmail.com/Ingesta_capaplata_capaoro"
+				},
+				"linkedServiceName": {
+					"referenceName": "Ingesta_capa_bronce_capa_plata",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": []
+	}
+}
