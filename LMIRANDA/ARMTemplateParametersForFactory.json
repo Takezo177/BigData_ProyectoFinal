@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "LMIRANDA"
+		},
+		"Conector_ADLS_Datafactory_accountKey": {
+			"value": ""
+		},
+		"Ingesta_capa_bronce_capa_plata_accessToken": {
+			"value": ""
+		},
+		"Conector_ADLS_Datafactory_properties_typeProperties_url": {
+			"value": "https://takezo7.dfs.core.windows.net/"
+		},
+		"Ingesta_capa_bronce_capa_plata_properties_typeProperties_existingClusterId": {
+			"value": "0928-174544-pdk4thjm"
+		}
+	}
+}
